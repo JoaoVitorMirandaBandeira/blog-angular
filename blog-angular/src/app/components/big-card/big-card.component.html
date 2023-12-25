@@ -1,6 +1,6 @@
 <div class="big-card">
     <img src="{{url}}" alt="">
-    <p class="date-post">{{data}}</p>
+    <p class="date-post">{{data | date: 'dd/MM/yyyy'}}</p>
     <h3 class="title">{{titulo}}</h3>
     <p class="content">{{descricao}}</p>
 </div>
