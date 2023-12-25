@@ -1,0 +1,37 @@
+main{
+    margin: auto;
+    width: 1120px;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3rem;
+    gap: 4rem;
+}
+.group-small-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media (max-width: 1120px){
+    main{
+        width: 100%;
+    }
+}
+@media (max-width: 850px){
+    section{
+        display: flex;
+        flex-direction: column;
+        margin: 5em auto 0px auto;
+        margin-top: 3rem;
+        width: 70%;
+    }
+}
+@media (max-width: 550px){
+    section{
+        margin-top: 3em auto 0 auto;
+        margin-top: 3rem;
+        width: 100%;
+    }
+}

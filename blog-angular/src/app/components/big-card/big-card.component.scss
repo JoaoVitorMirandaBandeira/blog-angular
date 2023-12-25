@@ -1,0 +1,25 @@
+.big-card{
+    width: 100%;
+    img{
+        width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+    }
+    .date-post{
+        color: var(--dark-gray);
+        font-style: italic;
+        margin: 5px 0px;
+    }
+    .title{
+        color: var(--light-gray);
+        margin: 5px 0px;
+        font-size: x-large;
+    }
+    .content{
+        color: var(--gray);
+        font-size: medium;
+        line-height: 1.5em;
+        text-indent: 1em;
+    }
+}
+

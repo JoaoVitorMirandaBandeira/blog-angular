@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+/*Variaveis globais de estilo*/
+$font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+$background-dark: #121212;
+$background-light: #ffffff;
+$color: #ffffff;
+$dark-gray: #383838;
+$gray: #797979;
+$light-gray: #afafaf;
+$background-logo: #f2308b;
+:root {
+    --background-logo: #f2308b;
+    --dark-gray: #383838;
+    --gray: #797979;
+    --light-gray: #afafaf;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $font;
+    background-color: $background-dark;
+    color: $color;
+}

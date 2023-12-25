@@ -1,0 +1,20 @@
+<main>
+    <app-menu></app-menu>
+    <app-title></app-title>
+    <section>
+        <app-big-card
+            data="{{noticiaPrincipal?.dataPostagem}}"
+            descricao="{{noticiaPrincipal?.descricao}}"
+            titulo="{{noticiaPrincipal?.titulo}}"
+            url="{{noticiaPrincipal?.imagemUrl}}"
+        ></app-big-card>
+        <div class="group-small-card">
+            <app-small-card
+                *ngFor="let card of noticiasAgregadas"
+                data="{{card.dataPostagem}}"
+                url="{{card.imagemUrl}}"
+                titulo="{{card.titulo}}"
+            ></app-small-card>
+        </div>
+    </section>
+</main>
